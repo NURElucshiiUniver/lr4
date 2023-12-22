@@ -1,0 +1,41 @@
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: yellow;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: brown;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: blue;
+        }
+
+        footer {
+            background-color: green;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+</style>
+
+    <header>
+        <h1>Дивовижна сторінка</h1>
+    </header>
+
+    <main>
+        <p>Тут щось може змінитися</p>
+    </main>
+
+    <footer>
+        <p>Тут також щось може змінитися, але по-іншому</p>
+    </footer>
