@@ -9,8 +9,8 @@
 
 <?php
 
-function readTextFile($filename) { // Функція пошуку та зчитування файлу з кодом
-    if (file_exists($filename)) {
+function readTextFile($filename) { // Приймає ім'я файлу як параметр, перевіряє існування.
+    if (file_exists($filename)) { 
         return file_get_contents($filename);
     } else {
         return "Файл не знайдено.";
@@ -18,8 +18,8 @@ function readTextFile($filename) { // Функція пошуку та зчит�
 }
 
 
-function writeTextFile($filename, $content) { // Функція вписування змін в файл
-    file_put_contents($filename, $content);
+function writeTextFile($filename, $content) { // Приймає ім'я файлу та його вміст як параметри.
+    file_put_contents($filename, $content); // Запис вмісту у файл.
 }
 ?>
 
